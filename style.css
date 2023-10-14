@@ -14,9 +14,9 @@
 
 }
 .container .navtext{
-    width: 300px;
+    width: 350px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     display: flex;
     gap: 15px;
@@ -24,9 +24,7 @@
 
 }
 .container .navtext .navportfolio{
-    transition: 500ms;
-   
-    
+    transition: 500ms;   
 }
 .container .navtext .navportfolio:hover{
     font-size: 18px;
@@ -75,6 +73,7 @@
     background-color: rgb(20, 90, 151);
 
 }
+/* --------------------------------------------------------------- */
 .first{
     height: 85vh;
     background-color: rgb(30, 179, 159);
@@ -130,19 +129,16 @@
     
 }
 .iki{
-    
     width: 1400px;
     height: 730px;
-    background-color: rgb(149, 163, 163);
     display: flex;
     position: relative;
-    
     justify-content: center;
-
 }
 .portfolio{
     margin-top: 20px;
     display: flex;
+    align-items: center;
     justify-content: center;
     width: 300px;
     height: 100px;
@@ -151,11 +147,12 @@
 .portfolio .ptxt{
     
     font-size: 23px;
-    color: aliceblue;
+    color: rgb(4, 19, 48);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
 .portfolio .ptxt .ulduz{
     width: auto;
@@ -163,8 +160,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
 }
+
 .pphoto{
     position: absolute;
     bottom: 0px;
@@ -174,31 +173,285 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
-    
-    
-    
-
 }
 .p1{
     width: 250px;
-    height: 200px;
+    height: 180px;
     background-color: red;
     margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
+    
 }
-.photo{
-    box-sizing: border-box;
-    object-fit: cover;
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    background-color: azure;
+.hover{
+    width: 250px;
+    height: 180px;
+    background-color: rgb(30, 179, 159);
+    position: absolute;
+    z-index: 2;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 55px;
+    opacity: 0;
+    transition: 1.2s;
+}
+.hover:hover{
+    opacity: 1;
+}
+img{
+    border-radius: 15px;
+}
+/* ----------------------------------------------------------- */
+.about{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30, 179, 159);
+}
+.part3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1200px;
+    height: 450px;
+    gap: 10px;
+}
+.about-h1{
+    width: 250px;
+    height: 90px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    gap: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 
 }
+.part3 .text{
+    width: 900px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    gap: 20px;
+}
+.part3 .text p{
+    word-spacing: 2px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    
+}
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 170px;
+    height: 60px;
+    border: 1px solid white;
+    background-color: rgb(30, 179, 159);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    transition: 500ms;
+    
+}
+.download:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+footer{
+    height: 35vh;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.footer1{
+    height: 75%;
+    background-color: #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.location{
+    flex-direction: column;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 302px;
+    height: 200px;
+    color: aliceblue;
+    
+}
+.location .txt-h1{
+    font-size: 26px;
+    padding-top: 20px;
+    font-weight: bold;
+    
+}
+.location .txt{
+    padding-bottom: 40px;
+    font-size: 18px;
+
+}
+.around-the-world{
+    flex-direction: column;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 302px;
+    height: 200px;
+    color: aliceblue;
+}
+.around-the-world .txt{
+    font-size: 26px;
+    padding-top: 20px;
+    font-weight: bold;
+
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 35px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-color: aliceblue;
+    border-radius: 50%;
+    transition: 500ms;
+}
+.icon:hover{
+    color: black;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.freelance{
+    flex-direction: column;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 200px;
+    color: aliceblue;
+    
+    
+}
+.freelance .txt-h1{
+    font-size: 26px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.freelance .txt{
+    width: 350px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.footer2{
+    background-color: #1a252f;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright{
+    color: aliceblue;
+
+}
+.contact{
+    height: 80vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact .h1{
+    height: 100px;
+    display: flex;
+    
+}
+.contact .ulduz{
+  
+}
+.contact .txt{
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 28px;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    gap: 20px;
+    
+}
+input{
+    width: 550px;
+    height: 60px;
+    border: 0px;
+}
+textarea{
+    border: 0px;
+    width: 550px;
+    height: 80px;
+}
+#buton{
+    width: 70px;
+    height: 35px;
+    background-color: rgb(30, 179, 159);
+    border-radius: 10px;
+    color: white;
+    transition: 500ms;
+}
+#buton:hover{
+    background-color: #1a252f;
+    cursor: pointer;
+}
+
+
+
+
+
+
 
 
 

@@ -18,12 +18,12 @@
 
 <body>
     <nav>
-        <div class="container">
+        <div id="go" class="container">
             <div class="start"><span>START BOOTSTRAP</span></div>
             <div class="navtext">
-                <div class="navportfolio">PORTFOLIO</div>
-                <div class="navabout">ABOUT</div>
-                <div class="navcontact">CONTACT</div>
+                <div class="navportfolio"><a href="#about">PORTFOLIO</a></div>
+                <div class="navabout"><a href="#ged ">ABOUT</a></div>
+                <div class="navcontact"><a href="#contact">CONTACT</a></div>
             </div>
 
         </div>
@@ -31,7 +31,7 @@
 
     </nav>
     <main>
-        <section class="first">
+        <section id="portfolio" class="first">
             <div class="texts">
                 <div class="image">
                     <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg"
@@ -54,42 +54,68 @@
 
 
         </section>
-        <section class="gg">
+        <section id="about" class="gg">
             <div class="iki">
 
                 <div class="pphoto">
                     <div class="p1">
-                        <div class="photo">
-                            <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="">
+                        <div class="hover">
+                            <i class="fa-solid fa-plus"></i>
                         </div>
-                    </div>
-                    <div class="p1">
-                        <div class="photo">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="p1">
-                        <div class="photo">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="p1">
-                        <div class="photo">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="p1">
-                        <div class="photo">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="p1">
-                        <div class="photo">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    
 
+                        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png"
+                            alt="">
+
+
+
+
+                    </div>
+                    <div class="p1">
+                        <div class="hover">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+
+                        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png"
+                            alt="">
+
+                    </div>
+                    <div class="p1">
+                        <div class="hover">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+
+                        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png"
+                            alt="">
+
+                    </div>
+                    <div class="p1">
+                        <div class="hover">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+
+                        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png"
+                            alt="">
+                    </div>
+
+
+                    <div class="p1">
+                        <div class="hover">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+
+                        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png"
+                            alt="">
+
+                    </div>
+                    <div class="p1">
+                        <div class="hover">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+
+                        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png"
+                            alt="">
+
+                    </div>
                 </div>
 
 
@@ -98,19 +124,43 @@
                         <h1>PORTFOLIO</h1>
                         <div class="ulduz">
 
-                            <i class="fa-solid fa-star"></i>
+                            <i style="color: rgb(4, 19, 48);" class="fa-solid fa-star"></i>
 
                         </div>
-
                     </div>
+                </div>
+            </div>
 
 
 
+
+
+
+
+
+        </section>
+        <section id="ged" class="about">
+            <div class="part3">
+                <div class="about-h1">
+                    <div class="about-txt">
+                        <h1>ABOUT</h1>
+                    </div>
+                    <div class="about-star">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
+                        complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets
+                        for easy customization.</p>
+                    <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add
+                        your email address to the contact form to make it fully functional!</p>
+                </div>
+                <div class="download">
+                    <i class="fa-solid fa-download"></i>
+                    <span>Free Download!</span>
 
                 </div>
-
-
-
 
 
 
@@ -125,58 +175,71 @@
 
 
         </section>
+        <section id="contact"  class="contact">
+            <div class="h1">
+                <div class="txt">
+                    <p>CONTACT ME</p>
+                    <i style="color: black;" class="fa-solid fa-star"></i>
+                </div>
 
+            </div>
 
+            <form action="">
 
+                <input placeholder="Name" id="name" type="text">
 
+                <hr>
+                <input placeholder="Email" type="email">
+                <hr>
+                <input placeholder="Number" type="text">
+                <hr>
+                <textarea placeholder="Massage" name="" id="" cols="30" rows="10"></textarea>
 
+                <input id="buton" type="submit">
+            </form>
 
-
-
-
-
+        </section>
     </main>
-
-
-
-
-
-
 
     <footer>
+        <div  class="footer1">
+            <div class="location">
+                <div class="txt-h1">LOCATION</div>
+                <div class="txt">2215 John Daniel Drive
+                    Clark, MO 65243</div>
+            </div>
+            <div class="around-the-world">
+                <div class="txt">AROUND THE WEB</div>
+                <div class="icons">
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="freelance">
+                <div class="txt-h1">ABOUT FREELANCER</div>
+                <div class="txt">
+                    <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="#go">Start
+                            Bootstrap.</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="copyright">Copyright © Your Website 2023</div>
+        </div>
 
     </footer>
-    <main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </main>
-
-
 
 
 </body>
